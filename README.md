@@ -5,13 +5,11 @@ A beautiful, fast GTK3 app launcher for Hyprland with full Material Design 3 int
 ## Screenshots
 
 ![Main View](screenshots/screenshot1.png)
-*Main launcher with app grid and category sidebar*
+*Changes color by matugen, check this*
 
 ![Search](screenshots/screenshot2.png)
-*Instant search with live filtering*
 
 ![Navigation](screenshots/screenshot3.png)
-*Keyboard navigation with arrow keys*
 
 ## Features
 
