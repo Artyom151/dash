@@ -2,17 +2,26 @@
 
 A beautiful, fast GTK3 app launcher for Hyprland with full Material Design 3 integration.
 
-![Dash Screenshot](screenshot.png)
+## Screenshots
+
+![Main View](screenshots/screenshot1.png)
+*Main launcher with app grid and category sidebar*
+
+![Search](screenshots/screenshot2.png)
+*Instant search with live filtering*
+
+![Navigation](screenshots/screenshot3.png)
+*Keyboard navigation with arrow keys*
 
 ## Features
 
-- 🎨 **Material Design 3** - Full matugen color integration
-- ⚡ **Fast & Lightweight** - GTK3 with optimized app loading
-- 🔍 **Instant Search** - Type anywhere to search apps
-- ⌨️ **Keyboard Navigation** - Arrow keys + Enter to launch
-- 📦 **Flatpak Support** - Detects apps from all sources
-- 🎯 **Category Filtering** - Quick access to Games, Development, Internet, Media
-- 🪟 **Layer Shell** - Proper floating overlay using gtk-layer-shell
+- **Material Design 3** - Full matugen color integration
+- **Fast & Lightweight** - GTK3 with optimized app loading
+- **Instant Search** - Type anywhere to search apps
+- **Keyboard Navigation** - Arrow keys + Enter to launch
+- **Flatpak Support** - Detects apps from all sources
+- **Category Filtering** - Quick access to Games, Development, Internet, Media
+- **Layer Shell** - Proper floating overlay using gtk-layer-shell
 
 ## Requirements
 
@@ -100,10 +109,18 @@ Edit `main.py` to customize:
 - Ensure matugen is configured and colors.json exists
 - Run: `ls ~/.local/state/quickshell/user/generated/colors.json`
 
+## Uninstall
+
+Run the uninstall script:
+
+```bash
+./uninstall.sh
+```
+
 ## License
 
 GPL-3.0 License - Free and open source software!
 
 ## Credits
 
-Created for Hyprland with ❤️
+Created for Hyprland
